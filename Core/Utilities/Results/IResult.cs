@@ -11,4 +11,4 @@ namespace Core.Utilities.Results
         string Message { get; }
 
     }
-}
+} 
