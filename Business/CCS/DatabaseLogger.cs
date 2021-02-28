@@ -6,7 +6,8 @@ namespace Business.CCS
     {
         public void Log()
         {
-            Console.WriteLine("Veri Tabanına Loglandı...");
+            Console.WriteLine("Veritabanına loglandı");
         }
     }
+
 }
