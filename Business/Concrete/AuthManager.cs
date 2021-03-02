@@ -47,7 +47,7 @@ namespace Business.Concrete
             {
                 return new ErrorDataResult<User>("Parola hatası");
             }
-
+            
             return new SuccessDataResult<User>(userToCheck, "Başarılı giriş");
         }
 
