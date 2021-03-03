@@ -56,7 +56,7 @@ namespace Business.Concrete
             //23:10 Dersteyiz
         }
 
-
+        //[CacheAspect] 
         public IDataResult<List<Product>> GetAll()
         {
             if (DateTime.Now.Hour == 1)
